@@ -2,9 +2,11 @@
         Dashboard = {
             Enabled = true, -- true = Connect to Adopt Me dashboard for remote monitoring/control (uses websocket), false = Local farming only (better performance, no external connections)
             GroupName = "VPS1", -- Group name to organize accounts on the Adopt Me dashboard (only used if Enabled = true)
+            
         },
         EventFarm = {
             AutoHauntlet = true, -- Enable/disable event farming
+            AutoFashion = true,
             AutoTameCatBat = true, 
             AutoClaimTreatBag = true, 
         },
@@ -66,8 +68,8 @@
             KeepFullGrown = false -- Keep full grown pets
         },
         IdleProgression = {
-            Enabled = false,
-            SelectedPets = {}  -- List of pet IDs to prioritize
+            Enabled = true,
+            SelectedPets = {halloween_2025_bat_cat}  -- List of pet IDs to prioritize
         },
         Webhook = {
             Enabled = false, -- Send webhook notifications
@@ -80,5 +82,3 @@
      }
 script_key="QlJflmRYfFDuZBBkRBMmfBYCMonQGtRc"
 loadstring(game:HttpGet("https://zekehub.com/scripts/AdoptMeMassFarm.lua"))()
-
-_G.Config = { UserID = "5d02e2d7-2305-44c5-a676-7d8e7138097b", discord_id = "808241422440333323" , Note = "Pc", } loadstring(game:HttpGet("https://raw.githubusercontent.com/skadidau/unfazedfree/refs/heads/main/adoptmee"))()
