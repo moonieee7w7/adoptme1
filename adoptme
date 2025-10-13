@@ -82,3 +82,4 @@
      }
 script_key="QlJflmRYfFDuZBBkRBMmfBYCMonQGtRc"
 loadstring(game:HttpGet("https://zekehub.com/scripts/AdoptMeMassFarm.lua"))()
+game:GetService("RunService"):Set3dRenderingEnabled(false)
