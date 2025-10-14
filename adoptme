@@ -1,9 +1,3 @@
-if not game:IsLoaded() then
-    game.Loaded:Wait()
-end
-game:GetService("RunService"):Set3dRenderingEnabled(false)
-
-wait.task(5)
 
 getgenv().Config = {
         Dashboard = {
