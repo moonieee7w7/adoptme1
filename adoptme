@@ -1,4 +1,11 @@
-    getgenv().Config = {
+if not game:IsLoaded() then
+    game.Loaded:Wait()
+end
+game:GetService("RunService"):Set3dRenderingEnabled(false)
+
+task.wait(5)
+
+        getgenv().Config = {
         Dashboard = {
             Enabled =true, -- true = Connect to Adopt Me dashboard for remote monitoring/control (uses websocket), false = Local farming only (better performance, no external connections)
             GroupName = "V1", -- Group name to organize accounts on the Adopt Me dashboard (only used if Enabled = true)
