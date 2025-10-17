@@ -1,13 +1,13 @@
-
-        getgenv().Config = {
+getgenv().Config = {
         Dashboard = {
             Enabled = false, -- true = Connect to Adopt Me dashboard for remote monitoring/control (uses websocket), false = Local farming only (better performance, no external connections)
-            GroupName = "V1", -- Group name to organize accounts on the Adopt Me dashboard (only used if Enabled = true)
+            GroupName = "Halloween", -- Group name to organize accounts on the Adopt Me dashboard (only used if Enabled = true)
             
         },
         EventFarm = {
             AutoHauntlet = true, -- Enable/disable event farming
             AutoFashion = true,
+            AutoSleepOrTreat = true, -- Automatically choose to sleep or trick-or-treat during event
             AutoTameCatBat = true, 
             AutoClaimTreatBag = true, 
         },
@@ -25,8 +25,8 @@
             SelectedPetTypes = {}, -- Pet types to farm when SelectiveFarm is enabled
         },
         Misc = {
-            AutoNeon = true, -- Automatically make neon pets when possible
-            AutoShowUI = true, -- (To Load the ui or not)
+            AutoNeon = false, -- Automatically make neon pets when possible
+            AutoShowUI = false, -- (To Load the ui or not)
         },
         Performance = {
             Disable3DRendering = true, -- Disable 3D rendering for better performance
@@ -34,7 +34,7 @@
         },
         AutoPotion = {
             Enabled = false, -- Use age potions automatically
-            SelectedPets = {"halloween_2025_slimingo"}, -- Pet types to age with potions
+            SelectedPets = {}, -- Pet types to age with potions
         },
         AutoTrade = {
             Enabled = false, -- Enable auto trading system (sends trades)
@@ -69,8 +69,8 @@
             KeepFullGrown = false -- Keep full grown pets
         },
         IdleProgression = {
-            Enabled = false,
-            SelectedPets = {}  -- List of pet IDs to prioritize
+            Enabled = true,
+            SelectedPets = {"halloween_2025_slimingo", "halloween_2025_bat_cat"}  -- List of pet IDs to prioritize
         },
         Webhook = {
             Enabled = false, -- Send webhook notifications
