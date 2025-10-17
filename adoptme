@@ -33,7 +33,7 @@
             ReduceGraphics = true, -- Reduce graphics quality to minimum
         },
         AutoPotion = {
-            Enabled = true, -- Use age potions automatically
+            Enabled = false, -- Use age potions automatically
             SelectedPets = {"halloween_2025_slimingo"}, -- Pet types to age with potions
         },
         AutoTrade = {
