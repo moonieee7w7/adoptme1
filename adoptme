@@ -8,8 +8,8 @@ getgenv().Config = {
             AutoHauntlet = false, -- Enable/disable event farming
             AutoFashion = false,
             AutoSleepOrTreat = false, -- Automatically choose to sleep or trick-or-treat during event
-            AutoTameCatBat = true, 
-            AutoClaimTreatBag = true, 
+            AutoTameCatBat = false, 
+            AutoClaimTreatBag = false, 
         },
         BabyFarm = false, -- Enable/disable baby farming
         PetFarm = {
@@ -37,12 +37,12 @@ getgenv().Config = {
             SelectedPets = {"halloween_2025_slimingo"}, -- Pet types to age with potions
         },
         AutoTrade = {
-            Enabled = false, -- Enable auto trading system (sends trades)
+            Enabled = true, -- Enable auto trading system (sends trades)
             AutoAcceptTrades = false, -- Auto accept incoming trades (only accepts, won’t send trades if this is on alone)
-            SendTradesTo = "", -- Username to send items to
-            TradeMode = "all", -- "specific" or "all" - trade specific items or entire categories
-            Categories = {}, -- Categories to trade: "pets", "toys", "food", "transport", "gifts", "stickers", "pet_accessories", "roleplay", "strollers"
-            Items = {}, -- Specific items to trade when TradeMode is "specific" (e.g., {"dog", "cat", "hotdog", "sandwich", "apple"})
+            SendTradesTo = "World71Grouse", -- Username to send items to
+            TradeMode = "specific", -- "specific" or "all" - trade specific items or entire categories
+            Categories = {"pets"}, -- Categories to trade: "pets", "toys", "food", "transport", "gifts", "stickers", "pet_accessories", "roleplay", "strollers"
+            Items = {"halloween_2025_slimingo"}, -- Specific items to trade when TradeMode is "specific" (e.g., {"dog", "cat", "hotdog", "sandwich", "apple"})
         },
         AutoBuy = {
             Enabled = true, -- Enable auto buying system
