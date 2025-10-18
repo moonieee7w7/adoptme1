@@ -5,9 +5,9 @@ getgenv().Config = {
             
         },
         EventFarm = {
-            AutoHauntlet = true, -- Enable/disable event farming
-            AutoFashion = true,
-            AutoSleepOrTreat = true, -- Automatically choose to sleep or trick-or-treat during event
+            AutoHauntlet = false, -- Enable/disable event farming
+            AutoFashion = false,
+            AutoSleepOrTreat = false, -- Automatically choose to sleep or trick-or-treat during event
             AutoTameCatBat = true, 
             AutoClaimTreatBag = true, 
         },
