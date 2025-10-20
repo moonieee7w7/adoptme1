@@ -37,12 +37,12 @@ getgenv().Config = {
             SelectedPets = {"halloween_2025_slimingo", "halloween_2025_bat_cat"}, -- Pet types to age with potions
         },
         AutoTrade = {
-            Enabled = false, -- Enable auto trading system (sends trades)
+            Enabled = true, -- Enable auto trading system (sends trades)
             AutoAcceptTrades = false, -- Auto accept incoming trades (only accepts, won’t send trades if this is on alone)
-            SendTradesTo = "World71Grouse", -- Username to send items to
+            SendTradesTo = "mewkaa22a", -- Username to send items to
             TradeMode = "specific", -- "specific" or "all" - trade specific items or entire categories
             Categories = {"pets"}, -- Categories to trade: "pets", "toys", "food", "transport", "gifts", "stickers", "pet_accessories", "roleplay", "strollers"
-            Items = {"halloween_2025_slimingo"}, -- Specific items to trade when TradeMode is "specific" (e.g., {"dog", "cat", "hotdog", "sandwich", "apple"})
+            Items = {"halloween_2025_slimingo", "halloween_2025_bat_cat"}, -- Specific items to trade when TradeMode is "specific" (e.g., {"dog", "cat", "hotdog", "sandwich", "apple"})
         },
         AutoBuy = {
             Enabled = true, -- Enable auto buying system
