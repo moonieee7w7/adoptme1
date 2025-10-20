@@ -5,10 +5,10 @@ getgenv().Config = {
             
         },
         EventFarm = {
-            AutoHauntlet = true, -- Enable/disable event farming
-            AutoFashion = true,
-            AutoSleepOrTreat = true, -- Automatically choose to sleep or trick-or-treat during event
-            AutoTameCatBat = true, 
+            AutoHauntlet = false, -- Enable/disable event farming
+            AutoFashion = false,
+            AutoSleepOrTreat = false, -- Automatically choose to sleep or trick-or-treat during event
+            AutoTameCatBat = false, 
             AutoClaimTreatBag = true, 
         },
         BabyFarm = false, -- Enable/disable baby farming
@@ -33,8 +33,8 @@ getgenv().Config = {
             ReduceGraphics = true, -- Reduce graphics quality to minimum
         },
         AutoPotion = {
-            Enabled = false, -- Use age potions automatically
-            SelectedPets = {"halloween_2025_slimingo"}, -- Pet types to age with potions
+            Enabled = true, -- Use age potions automatically
+            SelectedPets = {"halloween_2025_slimingo", "halloween_2025_bat_cat"}, -- Pet types to age with potions
         },
         AutoTrade = {
             Enabled = false, -- Enable auto trading system (sends trades)
