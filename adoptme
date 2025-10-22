@@ -5,9 +5,9 @@ getgenv().Config = {
             
         },
         EventFarm = {
-            AutoHauntlet = false, -- Enable/disable event farming
-            AutoFashion = false,
-            AutoSleepOrTreat = false, -- Automatically choose to sleep or trick-or-treat during event
+            AutoHauntlet = true, -- Enable/disable event farming
+            AutoFashion = true,
+            AutoSleepOrTreat = true, -- Automatically choose to sleep or trick-or-treat during event
             AutoTameCatBat = true, 
             AutoClaimTreatBag = true, 
         },
@@ -33,11 +33,11 @@ getgenv().Config = {
             ReduceGraphics = true, -- Reduce graphics quality to minimum
         },
         AutoPotion = {
-            Enabled = true, -- Use age potions automatically
+            Enabled = false, -- Use age potions automatically
             SelectedPets = {"halloween_2025_slimingo", "halloween_2025_bat_cat"}, -- Pet types to age with potions
         },
         AutoTrade = {
-            Enabled = true, -- Enable auto trading system (sends trades)
+            Enabled = false, -- Enable auto trading system (sends trades)
             AutoAcceptTrades = false, -- Auto accept incoming trades (only accepts, won’t send trades if this is on alone)
             SendTradesTo = "dazhdragonPlayz", -- Username to send items to
             TradeMode = "specific", -- "specific" or "all" - trade specific items or entire categories
