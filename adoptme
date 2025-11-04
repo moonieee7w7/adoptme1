@@ -31,7 +31,7 @@
         AutoTrade = {
             Enabled = true,
             AutoAcceptTrades = false,
-            SendTradesTo = "Rian_Hah1",
+            SendTradesTo = "Xx_BlazePrimalVortex",
             TradeMode = "specific", -- "specific" or "all"
             Categories = {"pets"},
             Items = {"halloween_2025_bat_cat", "halloween_2025_slimingo", "halloween_2025_ghostly_cat", "halloween_2025_aye_aye"}, -- e.g., {"dog", "cat", "sandwich"}
