@@ -35,7 +35,7 @@ SendTradesTo = "RileygangRBX19",
 TradeMode = "specific", -- "specific" or "all"
 Categories = {"pets"},
 Items = {"halloween_2025_bat_cat", "halloween_2025_slimingo", "halloween_2025_ghostly_cat", "halloween_2025_aye_aye"}, -- e.g., {"dog", "cat", "sandwich"}
-ItemCounts = {50}, -- e.g., {30, 12} - corresponds to Items array
+ItemCounts = {50, 50, 100}, -- e.g., {30, 12} - corresponds to Items array
 FilterByAge = false,
 SelectedAges = {}, -- 1=Newborn, 2=Junior, 3=PreTeen, 4=Teen, 5=PostTeen, 6=FullGrown
 ExcludeNeons = false,
