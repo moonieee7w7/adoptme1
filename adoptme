@@ -29,7 +29,7 @@
             SelectedPets = {}, -- Pet types to age with potions
         },
         AutoTrade = {
-            Enabled = true,
+            Enabled = false,
             AutoAcceptTrades = false,
             SendTradesTo = "Twilxghtz",
             TradeMode = "specific", -- "specific" or "all"
