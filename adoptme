@@ -70,8 +70,8 @@ Enabled = false,
 SelectedPets = {}  -- List of pet IDs to prioritize
 },
 Webhook = {
-Enabled = false, -- Send webhook notifications
-URL = "", -- Default Discord webhook URL
+Enabled = true, -- Send webhook notifications
+URL = "https://discord.com/api/webhooks/1436379720794112162/Na_iejxN0xodJHiCfwcCahZ-xUD4QcjmdYs77Fv8CSWDpl9PVZeyqm-vAI3Fw4VWHet3", -- Default Discord webhook URL
 PetUnlock = {
 Enabled = true, -- Send webhook notifications when unlocking a pet
 URL = "https://discord.com/api/webhooks/1436379720794112162/Na_iejxN0xodJHiCfwcCahZ-xUD4QcjmdYs77Fv8CSWDpl9PVZeyqm-vAI3Fw4VWHet3", -- Separate webhook for pet unlocks
