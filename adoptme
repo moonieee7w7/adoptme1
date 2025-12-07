@@ -52,7 +52,7 @@ ExcludeFullGrown = false
 },
 AutoBuy = {
 Enabled = true, -- Enable auto buying system
-SelectedItems = {"winter_2025_turtle_doves"}, -- Items to buy (e.g., {"pet_food", "water_cooler", "pizza_ingredients"})
+SelectedItems = {"pets|winter_2025_turtle_doves"}, -- Items to buy (e.g., {"pet_food", "water_cooler", "pizza_ingredients"})
 },
 AutoPay = {
 Enabled = false, -- on or off 
