@@ -21,9 +21,9 @@ EventFarm = {
 AutoExchange = {
 Enabled = true, -- Exchange bucks for event currency
 },
-AutoSleighball = true, -- Automatically play sleighball minigame (does not work with baby or pet farm)
-AutoHumbug = true, -- Automatically play humbug minigame (does not work with baby or pet farm)
-AutoStarCatch = true, -- Automatically play star catch minigame (does not work with baby or pet farm)
+AutoSleighball = false, -- Automatically play sleighball minigame (does not work with baby or pet farm)
+AutoHumbug = false, -- Automatically play humbug minigame (does not work with baby or pet farm)
+AutoStarCatch = false, -- Automatically play star catch minigame (does not work with baby or pet farm)
 },
 AutoTrade = {
 Enabled = false, -- Enable auto trading
