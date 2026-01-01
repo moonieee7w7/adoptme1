@@ -56,7 +56,7 @@ SelectedPets = {}, -- Pet IDs to use potions on (empty = does nothing)
 },
 AutoBuy = {
 Enabled = true, -- Automatically buy items from shops
-SelectedItems = {"pets|winter_2025_christmas_spirit", "pets|winter_2025_cozy_mistletroll", "pets|winter_2025_samoyed", "pets|winter_2025_maine_coon"}, -- Item IDs to buy
+SelectedItems = {"pets|winter_2025_christmas_spirit", "pets|winter_2025_cozy_mistletroll", "pets|winter_2025_samoyed", "pets|winter_2025_maine_coon", "pets|winter_2025_japanese_snow_fairy"}, -- Item IDs to buy
 },
 AutoPay = {
 Enabled = false, -- Send bucks to another player
